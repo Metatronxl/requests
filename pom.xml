@@ -96,6 +96,11 @@
             <version>9.3.13.v20161014</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpcore</artifactId>
+            <version>4.0.1</version>
+        </dependency>
     </dependencies>
 
     <build>

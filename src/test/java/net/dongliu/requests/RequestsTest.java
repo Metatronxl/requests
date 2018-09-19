@@ -181,4 +181,11 @@ public class RequestsTest {
         assertFalse(text.isEmpty());
         assertTrue(statusCode[0] > 0);
     }
+
+    @Test
+    public void commonTest(){
+        String url = "http://www.baidu.com";
+        String res = Requests.get(url).send().readToText();
+        System.out.println(res);
+    }
 }
