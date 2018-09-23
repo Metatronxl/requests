@@ -1,4 +1,4 @@
 # Requests
 
-forked from [requests](https://github.com/hsiafan)
+forked from [requests](https://github.com/hsiafan/requests)
 
